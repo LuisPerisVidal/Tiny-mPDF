@@ -71,6 +71,18 @@
 
 	},
 
+	"autoload-dev": {
+
+		"psr-4": {
+			"Mpdf\\": "tests/Mpdf"
+		},
+
+		"files": [
+			"src/functions-dev.php"
+		]
+
+	},
+
 	"scripts": {
 		"post-install-cmd": [
 			"php -r \"chmod('./tmp', 0777);\""
